@@ -1,8 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
-using _3Dimensions.TrafficSystem;
-
-namespace _3Dimensions.TrafficSystemFishNet
+namespace _3Dimensions.TrafficSystemFishNet.Runtime
 {
     public class ResetTraffic : MonoBehaviour
     {
@@ -20,8 +18,8 @@ namespace _3Dimensions.TrafficSystemFishNet
 
         private void OnClick()
         {
-            if (!TrafficSystemServer.Instance) return;
-            TrafficSystemServer.Instance.ResetTraffic();
+            if (!TrafficManagerServer.Instance) return;
+            TrafficManagerServer.Instance.ResetTraffic();
         }
     }
 }

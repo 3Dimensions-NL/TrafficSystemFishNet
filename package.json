@@ -1,0 +1,20 @@
+{
+    "name": "com.3dimensions.traffic.fishnet",
+    "displayName": "3Dimensions Traffic System FishNet extension",
+    "version": "0.1.1",
+    "unity": "2022.3",
+    "description": "This package contains a FishNet extension for our traffic system",
+    "keywords": ["Component, Editor, Tools, Traffic"],
+    "category": "Editor Tools",
+    "changelogUrl": "https://github.com/3Dimensions-NL/TrafficSystemFishNet/releases/",
+    "author": {
+        "name": "3Dimensions v.o.f.",
+        "email": "info@3dimensions.nl",
+        "url": "https://www.3dimensions.nl"
+    },
+    "dependencies": {
+        "com.unity.splines": "2.6.1",
+        "com.unity.mathematics": "1.2.6",
+        "com.3dimensions.traffic": "0.1.1"
+    }
+}

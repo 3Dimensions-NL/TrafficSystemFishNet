@@ -1,8 +1,8 @@
+using _3Dimensions.TrafficSystem.Runtime;
 using FishNet;
 using FishNet.Object;
 using UnityEngine;
-
-namespace _3Dimensions.TrafficSystem
+namespace _3Dimensions.TrafficSystemFishNet.Runtime
 {
     public class VehicleAiNetworked : NetworkBehaviour
     {
@@ -18,32 +18,19 @@ namespace _3Dimensions.TrafficSystem
         public override void OnStartClient()
         {
             base.OnStartClient();
-            vehicleAi.enabled = IsServer;
-            route.enabled = IsServer;
-            
-            if (IsServer) TimeManager.OnTick += OnTick;
-        }
-
-        public override void OnStopClient()
-        {
-            base.OnStopClient();
-            if (IsServer) TimeManager.OnTick -= OnTick;
+            vehicleAi.enabled = IsServerStarted;
+            route.enabled = IsServerStarted;
         }
 
         private void OnDestroy()
         {
             if (InstanceFinder.NetworkManager)
             {
-                if (InstanceFinder.NetworkManager.IsServer)
+                if (InstanceFinder.NetworkManager.IsServerStarted)
                 {
                     InstanceFinder.ServerManager.Despawn(gameObject);
                 }
             }
-        }
-        
-        private void OnTick()
-        {
-            // if (IsServer) vehicleAi.ApplyUpdate((float)TimeManager.TickDelta);
         }
     }
 }

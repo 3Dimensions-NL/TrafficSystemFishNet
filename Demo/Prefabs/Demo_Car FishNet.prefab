@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1566304350671571376
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 88712355856446901, guid: c8189355c64aa794fb2603d2d2ba9a35, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 88712355856446901, guid: c8189355c64aa794fb2603d2d2ba9a35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 88712355856446901, guid: c8189355c64aa794fb2603d2d2ba9a35, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 88712355856446901, guid: c8189355c64aa794fb2603d2d2ba9a35, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 88712355856446901, guid: c8189355c64aa794fb2603d2d2ba9a35, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 88712355856446901, guid: c8189355c64aa794fb2603d2d2ba9a35, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 88712355856446901, guid: c8189355c64aa794fb2603d2d2ba9a35, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 88712355856446901, guid: c8189355c64aa794fb2603d2d2ba9a35, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 88712355856446901, guid: c8189355c64aa794fb2603d2d2ba9a35, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 88712355856446901, guid: c8189355c64aa794fb2603d2d2ba9a35, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991551206810361447, guid: c8189355c64aa794fb2603d2d2ba9a35, type: 3}
+      propertyPath: m_Name
+      value: Demo_Car FishNet
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7991551206810361447, guid: c8189355c64aa794fb2603d2d2ba9a35, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: -3412218371248881970}
+    - targetCorrespondingSourceObject: {fileID: 7991551206810361447, guid: c8189355c64aa794fb2603d2d2ba9a35, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6546494790203264184}
+  m_SourcePrefab: {fileID: 100100000, guid: c8189355c64aa794fb2603d2d2ba9a35, type: 3}
+--- !u!114 &3289915389619162189 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4040996738565850621, guid: c8189355c64aa794fb2603d2d2ba9a35, type: 3}
+  m_PrefabInstance: {fileID: 1566304350671571376}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8888716952683091927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f719f55c292554c933a632d84ba46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5168511875675894920 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5910587107572792632, guid: c8189355c64aa794fb2603d2d2ba9a35, type: 3}
+  m_PrefabInstance: {fileID: 1566304350671571376}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8888716952683091927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90029b13722e77947ae17d47c44beaaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &8888716952683091927 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7991551206810361447, guid: c8189355c64aa794fb2603d2d2ba9a35, type: 3}
+  m_PrefabInstance: {fileID: 1566304350671571376}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-3412218371248881970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8888716952683091927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b716c41e9b56b4baafaf13a523ba2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <IsNested>k__BackingField: 0
+  <ComponentIndex>k__BackingField: 0
+  <PredictedSpawn>k__BackingField: {fileID: 0}
+  _networkBehaviours: []
+  <SerializedRootNetworkBehaviour>k__BackingField: {fileID: 0}
+  <NestedRootNetworkBehaviours>k__BackingField: []
+  SerializedTransformProperties:
+    Position: {x: 0, y: 0, z: 0}
+    Rotation: {x: 0, y: 0, z: 0, w: 0}
+    LocalScale: {x: 0, y: 0, z: 0}
+  _isNetworked: 1
+  _isSpawnable: 1
+  _isGlobal: 0
+  _initializeOrder: 0
+  _defaultDespawnType: 0
+  NetworkObserver: {fileID: 0}
+  _enablePrediction: 0
+  _predictionType: 0
+  _graphicalObject: {fileID: 0}
+  _detachGraphicalObject: 0
+  _enableStateForwarding: 1
+  _networkTransform: {fileID: 0}
+  _ownerInterpolation: 1
+  _ownerSmoothedProperties: 255
+  _adaptiveInterpolation: 3
+  _spectatorSmoothedProperties: 255
+  _spectatorInterpolation: 2
+  _enableTeleport: 0
+  _teleportThreshold: 1
+  <PrefabId>k__BackingField: 0
+  <SpawnableCollectionId>k__BackingField: 0
+  <SceneId>k__BackingField: 0
+  <AssetPathHash>k__BackingField: 23746381237528671
+--- !u!114 &6546494790203264184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8888716952683091927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 502894c3ec273fb4d814a4d324d937c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _componentIndexCache: 255
+  _addedNetworkObject: {fileID: -3412218371248881970}
+  _networkObjectCache: {fileID: 0}
+  vehicleAi: {fileID: 3289915389619162189}
+  route: {fileID: 5168511875675894920}
