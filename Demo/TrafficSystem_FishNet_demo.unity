@@ -838,7 +838,7 @@ MonoBehaviour:
   _teleportThreshold: 1
   <PrefabId>k__BackingField: 0
   <SpawnableCollectionId>k__BackingField: 0
-  <SceneId>k__BackingField: 4244352943
+  <SceneId>k__BackingField: 4292601322
   <AssetPathHash>k__BackingField: 0
 --- !u!114 &182226676
 MonoBehaviour:
@@ -1080,6 +1080,9 @@ MonoBehaviour:
   minSpawnTime: 2
   maxSpawnTime: 15
   startState: 1
+  onSpawn:
+    m_PersistentCalls:
+      m_Calls: []
   canSpawn: 1
 --- !u!4 &298750618
 Transform:
@@ -1112,6 +1115,9 @@ MonoBehaviour:
   _addedNetworkObject: {fileID: 298750620}
   _networkObjectCache: {fileID: 298750620}
   trafficSpawner: {fileID: 298750617}
+  onNetworkSpawn:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &298750620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1156,7 +1162,7 @@ MonoBehaviour:
   _teleportThreshold: 1
   <PrefabId>k__BackingField: 0
   <SpawnableCollectionId>k__BackingField: 0
-  <SceneId>k__BackingField: 4261401979
+  <SceneId>k__BackingField: 4275808063
   <AssetPathHash>k__BackingField: 0
 --- !u!114 &298750621
 MonoBehaviour:
@@ -2710,6 +2716,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1312352244, guid: 0b650fca685f2eb41a86538aa883e4c1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 155.1001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1312352244, guid: 0b650fca685f2eb41a86538aa883e4c1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -52.69995
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414662637742749596, guid: 0b650fca685f2eb41a86538aa883e4c1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 78.1001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414662637742749596, guid: 0b650fca685f2eb41a86538aa883e4c1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -121.400024
+      objectReference: {fileID: 0}
+    - target: {fileID: 4393252310584637087, guid: 0b650fca685f2eb41a86538aa883e4c1, type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 55
+      objectReference: {fileID: 0}
     - target: {fileID: 7443408887813606049, guid: 0b650fca685f2eb41a86538aa883e4c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3344,6 +3370,9 @@ MonoBehaviour:
   minSpawnTime: 2
   maxSpawnTime: 15
   startState: 1
+  onSpawn:
+    m_PersistentCalls:
+      m_Calls: []
   canSpawn: 1
 --- !u!4 &793669924
 Transform:
@@ -3376,6 +3405,9 @@ MonoBehaviour:
   _addedNetworkObject: {fileID: 793669926}
   _networkObjectCache: {fileID: 793669926}
   trafficSpawner: {fileID: 793669923}
+  onNetworkSpawn:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &793669926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3420,7 +3452,7 @@ MonoBehaviour:
   _teleportThreshold: 1
   <PrefabId>k__BackingField: 0
   <SpawnableCollectionId>k__BackingField: 0
-  <SceneId>k__BackingField: 4242253739
+  <SceneId>k__BackingField: 4244360571
   <AssetPathHash>k__BackingField: 0
 --- !u!114 &793669927
 MonoBehaviour:
@@ -3567,6 +3599,9 @@ MonoBehaviour:
   minSpawnTime: 2
   maxSpawnTime: 15
   startState: 1
+  onSpawn:
+    m_PersistentCalls:
+      m_Calls: []
   canSpawn: 1
 --- !u!4 &840944043
 Transform:
@@ -3599,6 +3634,9 @@ MonoBehaviour:
   _addedNetworkObject: {fileID: 840944045}
   _networkObjectCache: {fileID: 840944045}
   trafficSpawner: {fileID: 840944042}
+  onNetworkSpawn:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &840944045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3643,7 +3681,7 @@ MonoBehaviour:
   _teleportThreshold: 1
   <PrefabId>k__BackingField: 0
   <SpawnableCollectionId>k__BackingField: 0
-  <SceneId>k__BackingField: 4276086591
+  <SceneId>k__BackingField: 4259034938
   <AssetPathHash>k__BackingField: 0
 --- !u!114 &840944046
 MonoBehaviour:
@@ -5692,6 +5730,9 @@ MonoBehaviour:
   minSpawnTime: 2
   maxSpawnTime: 15
   startState: 1
+  onSpawn:
+    m_PersistentCalls:
+      m_Calls: []
   canSpawn: 1
 --- !u!4 &1258462214
 Transform:
@@ -5724,6 +5765,9 @@ MonoBehaviour:
   _addedNetworkObject: {fileID: 1258462216}
   _networkObjectCache: {fileID: 1258462216}
   trafficSpawner: {fileID: 1258462213}
+  onNetworkSpawn:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1258462216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5768,7 +5812,7 @@ MonoBehaviour:
   _teleportThreshold: 1
   <PrefabId>k__BackingField: 0
   <SpawnableCollectionId>k__BackingField: 0
-  <SceneId>k__BackingField: 4261128043
+  <SceneId>k__BackingField: 4261403963
   <AssetPathHash>k__BackingField: 0
 --- !u!114 &1258462217
 MonoBehaviour:

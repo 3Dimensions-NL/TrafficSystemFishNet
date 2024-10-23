@@ -1,11 +1,14 @@
 using _3Dimensions.TrafficSystem.Runtime;
 using FishNet.Object;
 using UnityEngine;
+using UnityEngine.Events;
 namespace _3Dimensions.TrafficSystemFishNet.Runtime
 {
     public class TrafficSpawnerServer : NetworkBehaviour
     {
         [SerializeField] private TrafficSpawner trafficSpawner;
+
+        public UnityEvent onNetworkSpawn; 
 
         public override void OnStartServer()
         {
@@ -25,6 +28,7 @@ namespace _3Dimensions.TrafficSystemFishNet.Runtime
         {
             Debug.Log("Spawning " + spawnedGameObject + " on network.");
             Spawn(spawnedGameObject);
+            onNetworkSpawn?.Invoke();
         }
     }
 }
