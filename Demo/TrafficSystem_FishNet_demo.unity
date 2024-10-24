@@ -838,7 +838,7 @@ MonoBehaviour:
   _teleportThreshold: 1
   <PrefabId>k__BackingField: 0
   <SpawnableCollectionId>k__BackingField: 0
-  <SceneId>k__BackingField: 4292601322
+  <SceneId>k__BackingField: 4261127531
   <AssetPathHash>k__BackingField: 0
 --- !u!114 &182226676
 MonoBehaviour:
@@ -1162,7 +1162,7 @@ MonoBehaviour:
   _teleportThreshold: 1
   <PrefabId>k__BackingField: 0
   <SpawnableCollectionId>k__BackingField: 0
-  <SceneId>k__BackingField: 4275808063
+  <SceneId>k__BackingField: 4294682430
   <AssetPathHash>k__BackingField: 0
 --- !u!114 &298750621
 MonoBehaviour:
@@ -3350,7 +3350,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &793669923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3452,7 +3452,7 @@ MonoBehaviour:
   _teleportThreshold: 1
   <PrefabId>k__BackingField: 0
   <SpawnableCollectionId>k__BackingField: 0
-  <SceneId>k__BackingField: 4244360571
+  <SceneId>k__BackingField: 4242261310
   <AssetPathHash>k__BackingField: 0
 --- !u!114 &793669927
 MonoBehaviour:
@@ -3579,7 +3579,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &840944042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3681,7 +3681,7 @@ MonoBehaviour:
   _teleportThreshold: 1
   <PrefabId>k__BackingField: 0
   <SpawnableCollectionId>k__BackingField: 0
-  <SceneId>k__BackingField: 4259034938
+  <SceneId>k__BackingField: 4292857150
   <AssetPathHash>k__BackingField: 0
 --- !u!114 &840944046
 MonoBehaviour:
@@ -5710,7 +5710,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1258462213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5812,7 +5812,7 @@ MonoBehaviour:
   _teleportThreshold: 1
   <PrefabId>k__BackingField: 0
   <SpawnableCollectionId>k__BackingField: 0
-  <SceneId>k__BackingField: 4261403963
+  <SceneId>k__BackingField: 4292868075
   <AssetPathHash>k__BackingField: 0
 --- !u!114 &1258462217
 MonoBehaviour:
