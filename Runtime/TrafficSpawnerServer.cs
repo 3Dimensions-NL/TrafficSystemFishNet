@@ -8,7 +8,8 @@ namespace _3Dimensions.TrafficSystemFishNet.Runtime
     {
         [SerializeField] private TrafficSpawner trafficSpawner;
 
-        public UnityEvent onNetworkSpawn; 
+        public UnityEvent onNetworkSpawn;
+        public bool logDebugs;
 
         public override void OnStartServer()
         {
@@ -26,7 +27,7 @@ namespace _3Dimensions.TrafficSystemFishNet.Runtime
         
         private void OnInstantiateGameObject(GameObject spawnedGameObject)
         {
-            Debug.Log("Spawning " + spawnedGameObject + " on network.");
+            if (logDebugs) Debug.Log("Spawning " + spawnedGameObject + " on network.");
             Spawn(spawnedGameObject);
             onNetworkSpawn?.Invoke();
         }
