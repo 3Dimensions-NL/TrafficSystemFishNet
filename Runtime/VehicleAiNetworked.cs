@@ -21,16 +21,5 @@ namespace _3Dimensions.TrafficSystemFishNet.Runtime
             vehicleAi.enabled = IsServerStarted;
             route.enabled = IsServerStarted;
         }
-
-        private void OnDestroy()
-        {
-            if (InstanceFinder.NetworkManager)
-            {
-                if (InstanceFinder.NetworkManager.IsServerStarted)
-                {
-                    InstanceFinder.ServerManager.Despawn(gameObject);
-                }
-            }
-        }
     }
 }
