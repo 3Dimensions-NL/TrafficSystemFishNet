@@ -8,7 +8,7 @@ namespace _3Dimensions.TrafficSystemFishNet.Runtime
 {
     public class CrossingWithTrafficLightsNetworked : NetworkBehaviour
     {
-        private readonly SyncVar<int> _sectionGreen;
+        private readonly SyncVar<int> _sectionGreen = new SyncVar<int>();
         public CrossingWithTrafficLights trafficLights;
         [SerializeField] private bool useDetectors;
         [Tooltip("Match the index number with the correct TrafficLightSections!")] public List<TrafficTrigger> triggers;
