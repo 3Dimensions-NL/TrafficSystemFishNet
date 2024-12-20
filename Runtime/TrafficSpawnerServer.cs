@@ -1,3 +1,4 @@
+using System;
 using _3Dimensions.TrafficSystem.Runtime;
 using FishNet.Object;
 using UnityEngine;
@@ -10,6 +11,11 @@ namespace _3Dimensions.TrafficSystemFishNet.Runtime
 
         public UnityEvent onNetworkSpawn;
         public bool logDebugs;
+
+        private void Awake()
+        {
+            trafficSpawner.canSpawn = false;
+        }
 
         public override void OnStartServer()
         {
