@@ -1,7 +1,7 @@
 {
     "name": "com.3dimensions.traffic.fishnet",
     "displayName": "3Dimensions Traffic System FishNet extension",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "unity": "2022.3",
     "description": "This package contains a FishNet extension for our traffic system",
     "keywords": ["Component, Editor, Tools, Traffic"],
