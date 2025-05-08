@@ -16,5 +16,12 @@
         "com.unity.splines": "2.6.1",
         "com.unity.mathematics": "1.2.6",
         "com.3dimensions.traffic": "0.1.2"
-    }
+    },
+    "samples": [
+        {
+            "displayName": "Sample assets",
+            "description": "Contains sample traffic assets to showcase the functionality for multiplayer",
+            "path": "Samples~"
+        }
+    ]
 }
